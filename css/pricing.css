@@ -1,0 +1,208 @@
+.pricing {
+    width: 100%;
+    height: 1130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(#F0F4FF57, #F2F5FF00);
+}
+
+.pricing-title {
+    width: 817px;
+    height: 65px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 73px;
+    letter-spacing: 0px;
+    color: #090F4E;
+    margin-top: 95px;
+    display: flex;
+    justify-content: center;
+}
+
+.pricing-description {
+    width: 764px;
+    height: 67px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0px;
+    color: #63657E;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.bill-period {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 32px; 
+}
+
+.bill-period-1, .bill-period-2 {
+    height: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #63657E;
+}
+
+.bill-period-1 {
+    width: 103px;
+}
+
+.bill-period-2{
+    width: 99px;
+}
+
+.fa-toggle-on {
+    font-size: 26px; 
+    color: #2DCA8C;
+}
+
+.pricing-options {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 80px;
+}
+
+.pricing-option-1, .pricing-option-2, .pricing-option-3 {
+    width: 350px;
+    height: 634px;
+    border-radius: 15px;
+    border: 2px solid #F5F6FA;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-option-2 {
+    box-shadow: 0px 20px 47px 0px #0000000D;
+}
+
+.pricing-options h1 {
+    height: 39px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 39px;
+    letter-spacing: 0px;
+    color: #090F4E;
+    margin-top: 43.12px;
+    margin-left: 39.36px;
+}
+
+.pricing-options p {
+    height: 59px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #63657E;
+    margin-top: 18.88px;
+    margin-left: 42px;
+}
+
+.price {
+    display: flex;
+    margin-left: 39.75px;
+}
+
+.price-no-1, .price-no-2, .price-no-3 {
+    height: 51px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 51px;
+    letter-spacing: 0px;
+    color: #090F4E;
+    margin-top: 18.3px;
+}
+
+.price-no-1 {
+    width: 55px;
+    margin-right: 15.25px;
+}
+
+.price-no-2 {
+    width: 107px;
+    margin-right: 16.25px;
+}
+
+.price-no-3 {
+    width: 109px;
+    margin-right: 14.25px;
+}
+
+.price-unit {
+    width: 149px;
+    height: 22px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: #63657E;
+    margin-top: 40.69px;
+}
+
+.pricing-options hr {
+    width: 308.56px;
+    height: 1.56px;
+    border: none;
+    background-color: #F5F6FA;
+    margin-left: 21px;
+    margin-top: 37.37px;
+}
+
+.pricing-options ul {
+    list-style-position: inside;
+    list-style-image: url('/images/Checkmark.png');
+    margin-top: 30.38px;
+    margin-left: 41.72px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.pricing-options ul li {
+  height: 22px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: #63657E;
+}
+
+.option-1-button, .option-2-button, .option-3-button {
+    width: 290px;
+    height: 66px;
+    margin-top: 41px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    border: none;
+}
+
+.option-1-button, .option-3-button {
+    background-color: #E5F1FF;
+    color: #293FCC;
+}
+
+.option-2-button {
+    background-color: #293FCC;
+    color: #FFFFFF;
+}

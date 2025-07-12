@@ -1,0 +1,75 @@
+.discover-explore {
+    width: 100%;
+    height: 917px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(#F0F4FF, #F2F5FF00);
+}
+
+.discover-explore-box {
+    width: 192px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #E9EDFF;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 200%;
+    letter-spacing: 0%;
+    display: flex;        
+    justify-content: center;
+    align-items: center;
+    color: #293FCC;
+    margin-top: 139px;
+}
+
+.discover-explore h1 {
+    width: 524px;
+    height: 45px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #090F4E;
+    margin-top: 12px;
+}
+
+.discover-explore p {
+    width: 764px;
+    height: 67px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0px;
+    color: #63657E;
+    margin-top: 32px;
+}
+
+.discover-explore-images {
+    position: relative;
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.discover-explore-image-1 {
+    width: 864px;
+    height: 522px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    z-index: 1;
+}
+
+.discover-explore-image-2 {
+    position: absolute;
+    width: 201px;
+    height: 195px;
+    box-shadow: 0px 20px 47px 0px #0000000D;
+    z-index: 2;
+    top: 235px;
+    left: calc(50% - 540px);
+}

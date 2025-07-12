@@ -1,0 +1,88 @@
+.newsletter {
+    width: 100%;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-box {
+    width: 1117px;
+    height: 360px;
+    border-radius: 30px;
+    background-color: #E7F5FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter-box h1 {
+    width: 454px;
+    height: 54px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #090F4E;
+    margin-top: 68px;
+}
+
+.newsletter-box p {
+    width: 408px;
+    height: 78px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #63657E;
+    margin-top: 13px;
+    text-align: center;
+}
+
+.newsletter-box form {
+    width: 480px;
+    height: 67px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.newsletter-box form input {
+    width: 480px;
+    height: 67px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    z-index: 1;
+    border: none;
+    padding-left: 35px;
+}
+
+.newsletter-box form input::placeholder {
+    width: 193px;
+    height: 27px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #0B075733;
+}
+
+.newsletter-box form button {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background-color: #293FCC;
+    position: absolute;
+    z-index: 2;
+    border: none;
+    top: 11px;
+    right: 16px;
+}
+
+.fa-greater-than {
+    font-size: 14.64px;
+    color: #FFFFFF;
+}
