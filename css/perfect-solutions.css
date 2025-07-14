@@ -57,7 +57,7 @@
 }
 
 .benefit-2 {
-    box-shadow: 0px 20px 27px 0px #0000000D;
+    box-shadow: 0px 20px 47px 0px #0000000D;
 }
 
 .benefit-1-image {
@@ -100,6 +100,7 @@
 
 .benefit h1 {
     height: 36px;
+    width: 236px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 24px;
@@ -113,6 +114,11 @@
     width: 285px;
     height: 84px;
     font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #63657E;
     margin-top: 12px;
 }
 
@@ -127,4 +133,59 @@
     color: #282D648C;
     text-decoration: none;
     margin-top: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+    .perfect-solutions {
+        height: 1677px;
+    }
+
+    .perfect-solutions-box {
+       height: 1506px; 
+       width: 343px;
+       margin-top: 73px;
+    }
+
+    .perfect-solutions-box h1 {
+        width: 292px;
+        height: 90px;
+        text-align: center;
+        display: flex;
+        align-items: center;     
+        justify-content: center;
+    }
+
+    .perfect-solutions-box-description {
+        width: 343px;
+        height: 114px;
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 20px;
+    }
+
+    .benefit {
+        flex-direction: column;
+        margin-top: 48px;
+        gap: 32px;
+    }
+
+    .benefit-1, .benefit-2, .benefit-3 {
+        width: 343px;
+        padding-left: 35px;
+    }
+
+    .benefit-1 h1 {
+       height: 36px;
+       width: 236px;
+    }
+
+    .benefit-2 h1 {
+        height: 36px;
+        width: 199px;
+    }
+
+    .benefit-3 h1 {
+        height: 36px;
+        width: 218px;
+    }
 }

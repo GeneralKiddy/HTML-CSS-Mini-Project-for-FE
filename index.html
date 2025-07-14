@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="css/footer.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/3ca9c8e53c.js" crossorigin="anonymous"></script>
         <title>QuickSpace</title>
     </head>
@@ -25,9 +25,7 @@
             <div class="hero-area"> 
                 <nav>
                     <div class="navigation">
-                        <div class="nav-logo">
-                            <img src="./images/Logo.png" alt="QuickSpace Logo" />
-                        </div>
+                        <img src="./images/Logo.png" alt="QuickSpace Logo" class="nav-logo"/>
                         <div class="nav-text-group">
                             <div class="nav-text">
                                 <a href="#">Company</a>
@@ -37,6 +35,7 @@
                             </div>
                             <a href="#" class="nav-button">Try Free</a> 
                         </div>
+                        <div class="hamburger" onclick="toggleMobileMenu()">☰</div>
                     </div>
                 </nav>
                 <div class="welcome">
@@ -49,16 +48,14 @@
                             <a href="#" class="view-demo"><i class="fa-regular fa-circle-play"></i>View Demo</a>
                         </div>
                     </div>
-                    <div class="welcome-objects">
-                        <img src="./images/welcome image.png" alt="Welcome Character" />
-                    </div>
+                    <img src="./images/welcome image.png" alt="Welcome Character" class="welcome-objects"/>
                 </div>
             </div>
             <div class="logo">
-                <img src="./images/brand logo 1.png" alt="Caley Peace Logo" />
-                <img src="./images/brand logo 2.png" alt="Design Studio Logo" />
-                <img src="./images/brand logo 3.png" alt="Harrison Logo" />
-                <img src="./images/brand logo 4.png" alt="Barbecue Logo" />
+                <img src="./images/brand logo 1.png" alt="Caley Peace Logo" class="logo-1" />
+                <img src="./images/brand logo 2.png" alt="Design Studio Logo" class="logo-2" />
+                <img src="./images/brand logo 3.png" alt="Harrison Logo" class="logo-3" />
+                <img src="./images/brand logo 4.png" alt="Barbecue Logo" class="logo-4" />
             </div>
         </header>
 
@@ -100,9 +97,10 @@
             <h1>Join An Attractive & Personaliozed</h1>
             <p>Graphs displaying your performance for metrics like follower evolution, average rate per post and reach and impressions to give you the insights.</p>
             <div class="discover-explore-images">
-                <img src="./images/dashboard.png" alt="Dashboard Overview" class="discover-explore-image-1">
-                <img src="./images/sales.png" alt="Sales" class="discover-explore-image-2">
+                <img src="./images/dashboard.png" alt="Dashboard Overview 1" class="discover-explore-image-1" />
+                <img src="./images/sales.png" alt="Sales" class="discover-explore-image-2" />
             </div>
+            <img src="./images/dashboard for mobile.png" alt="Dashboard Overview 2" class="discover-explore-image-3" />
         </section>
 
         <section class="testimonial">
@@ -124,6 +122,7 @@
                         </div>
                     </div>
                     <div class="vl"></div>
+                    <hr class="testimonial-divider" />
                     <div class="testimonial-2">
                         <h1>Really love the Fast Delivery Photos File Service. Just 48 Hours. It’s Crazy!</h1>
                         <p>I truly have nothing but the highest praise and appreciation for all that you did for us. Saving me on the video montage projection was huge, and even more important the amazing pictures.</p>
@@ -166,7 +165,7 @@
                     <button class="option-1-button">Try for Free</button>
                 </div>
                 <div class="pricing-option-2">
-                    <h1>Standard</h1>
+                    <h1>Standard<i class="fa-solid fa-caret-down"></i></h1>
                     <p>For a small company that wants to show what it's worth.</p>
                     <div class="price">
                         <span class="price-no-2">$300</span>
@@ -216,9 +215,7 @@
         <footer>
             <div class="footer-1">
                 <div class="contact">
-                    <div class="company-logo">
-                        <img src="./images/Logo.png" alt="QuickSpace Logo" />
-                    </div>
+                    <img src="./images/Logo.png" alt="QuickSpace Logo" class="company-logo"/>
                     <div class="contact-info">
                         <span class="email-address"><i class="fa-solid fa-envelope"></i></i>quickspace@mail.com</span>
                         <span class="tel-no"><i class="fa-solid fa-phone"></i>548 457 3695 55</span>
@@ -266,6 +263,32 @@
                     <a href="#">Privacy Policy</a>
                     <a href="#">Contact</a>
                 </div>
+            </div>
+            <div class="footer-mobile">
+                <img src="./images/Logo.png" alt="QuickSpace Logo" class="company-logo"/>
+                <p>Winged moving moveth created for shall and a divide the their days male midst shall hath doesn't won't for. Midst life.Over a great night.</p>
+                <div class="social-media-mobile">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <div class="utility-tab-1">
+                    <span>Customer Support</span>
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+                <hr />
+                <div class="utility-tab-2">
+                    <span>Quick Links</span>
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+                <hr />
+                <div class="utility-tab-3">
+                    <span>Resources</span>
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+                <hr />
+                <span class="copyright">Copyright ©2020 Quicklinks</span>
             </div>
         </footer>
     </body>

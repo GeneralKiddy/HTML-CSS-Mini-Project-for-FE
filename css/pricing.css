@@ -98,6 +98,10 @@
     margin-left: 39.36px;
 }
 
+.fa-caret-down {
+    display: none !important;
+}
+
 .pricing-options p {
     height: 59px;
     font-family: "Poppins", sans-serif;
@@ -205,4 +209,59 @@
 .option-2-button {
     background-color: #293FCC;
     color: #FFFFFF;
+}
+
+@media only screen and (max-width: 600px) {
+    .pricing {
+        height: 1151px;
+    }
+
+    .pricing-title {
+        width: 343px;
+        height: 95px;
+        font-size: 24px;
+        line-height: 48px;
+        margin-top: 64px;
+        text-align: center;
+    }
+
+    .pricing-description {
+        width: 340px;
+        height: 165px;
+        margin-top: 24px;
+    }
+
+    .bill-period {
+        margin-top: 12px;
+    }
+
+    .bill-period-1, .bill-period-2 {
+        font-size: 16px;
+    }
+
+    .bill-period-1 {
+        width: 92px;
+    }
+
+    .bill-period-2 {
+        width: 88px;
+    }
+
+    .pricing-options {
+        margin-top: 60px;
+    }
+
+    .pricing-option-1, .pricing-option-3 {
+        display: none;
+    }
+
+    .pricing-option-2 {
+        width: 343px;
+    }
+
+    .fa-caret-down {
+        display: inline !important;
+        margin-left: 13px;
+        font-size: 24px;
+    }
 }

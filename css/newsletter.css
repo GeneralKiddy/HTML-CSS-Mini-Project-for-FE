@@ -86,3 +86,53 @@
     font-size: 14.64px;
     color: #FFFFFF;
 }
+
+@media only screen and (max-width: 600px) {
+    .newsletter {
+        height: 325px;
+    }
+
+    .newsletter-box {
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+    }
+
+    .newsletter-box h1{
+        width: 342px;
+        height: 86px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        margin-top: 30px;
+        text-align: center;
+        color: #0B0757;
+    }
+
+    .newsletter-box p {
+        width: 290px;
+        height: 56px;
+        font-family: "Rubik", sans-serif;
+        font-size: 16px;
+        color: #8480AE;
+        margin-top: 16px;
+    }
+
+    .newsletter-box form {
+        width: 319px;
+        margin-top: 24px;
+    }
+
+    .newsletter-box form input {
+        width: 319px;
+        padding-left: 25px;
+    }
+
+    .newsletter-box form input::placeholder {
+        font-family: "Rubik", sans-serif;
+        font-size: 16px;
+    }
+
+    .newsletter-box form button {
+        right: 10px;
+    }
+}

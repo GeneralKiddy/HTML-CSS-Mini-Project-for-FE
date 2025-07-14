@@ -47,6 +47,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     gap: 40px;
+    width: 394px;
+    height: 27px;
 }
 
 .nav-text a {
@@ -71,15 +73,19 @@ nav {
     letter-spacing: 0%;
     color: #FFFFFF;
     text-decoration: none;
-    height: auto;
+    height: 52px;
+    width: 165px;
+}
+
+.hamburger {
+    display: none;
 }
 
 .welcome {
     width: 100%;
     display: flex;
     gap: 35px;
-    max-width: 1110px;
-    margin: 0 auto;
+    margin-left: 165px;
 }
 
 .welcome-left-content {
@@ -184,4 +190,93 @@ nav {
     height: 56px;
     display: flex;
     gap: 115px;
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        height: 995px;
+    }
+
+    .hero-area {
+        height: 883px;
+    }
+    
+    nav {
+        height: 59px;
+        margin-top: 0;
+    }
+
+    .navigation {
+        width: 342px;
+        height: 24px;
+        margin-top: 17px;
+    }
+
+    .nav-logo {
+        width: 114px;
+        height: 17px;
+    }
+
+    .nav-text-group {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 24px;
+        color: #0B0757;
+    }
+
+    .welcome {
+        flex-direction: column;
+        margin-left: 0px;
+        gap: 0px;
+        align-items: center;
+    }
+
+    .welcome-left-content {
+        width: 343px;
+        align-items: center;
+        order: 2;
+        margin-top: 0px;
+    }
+
+    .welcome-left-content h1 {
+        width: 317px;
+        height: 153px;
+        font-size: 32px;
+    }
+
+    .welcome-left-content p {
+        width: 343px;
+        height: 89px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .welcome-left-content-buttons {
+        flex-direction: column;
+        gap: 24px;
+        margin-top: 23px;
+    }
+
+    .welcome-left-content .get-started {
+        width: 223px;
+    }
+
+    .welcome-objects {
+        width: 330px;
+        height: 300px;
+        margin-top: 0;
+        order: 1;
+    }
+
+    .logo {
+        height: 30.95px;
+        gap: 63.56px;
+    }
+
+    .logo-4 {
+        display: none;
+    }
 }

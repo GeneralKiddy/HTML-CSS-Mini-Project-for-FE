@@ -1,4 +1,4 @@
-.footer {
+footer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,7 +9,6 @@
 
 .footer-1 {
     display: flex;
-    height: 314px;
 }
 
 .contact {
@@ -148,7 +147,7 @@
     line-height: 30px;
     display: flex;
     gap: 256px;
-    margin-top: 200px;
+    margin-top: 110px;
 }
 
 .copyright {
@@ -167,4 +166,110 @@
 .utility-links a {
    text-decoration: none; 
    color: #63657E;
+}
+
+.footer-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    footer {
+        height: 651px;
+    }
+
+    .footer-1, .footer-2 {
+        display: none;
+    }
+
+    .footer-mobile {
+        display: block;
+        width: 100%;
+        height: 526px;
+        margin-top: 83px;
+    }
+
+    .footer-mobile .company-logo {
+        width: 255px;
+        height: 38px;
+        margin-left: 50px;
+    }
+
+    .footer-mobile p {
+        width: 343px;
+        height: 90px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 30px;
+        letter-spacing: 0%;
+        color: #8480AE;
+        margin-top: 24px;
+        margin-left: 50px;
+    }
+
+    .social-media-mobile {
+        display: flex;
+        gap: 13px;
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+    
+    .social-media-mobile a {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background-color: #293FCC1A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #293FCC;
+        text-decoration: none;
+    }
+
+    .utility-tab-1, .utility-tab-2, .utility-tab-3 {
+        width: 100%;
+        height: 48px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 50px;
+    }
+
+    .utility-tab-1 {
+        margin-top: 54px;
+    }
+
+    .utility-tab-2, .utility-tab-3 {
+        margin-top: 24px;
+    }
+
+    .footer-mobile span {
+        height: 30px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #0B0757;
+    }
+
+    .footer-mobile hr {
+        width: 100%;
+        height: 0px;
+        opacity: 10%;
+        border: 1px solid #70759C;
+    }
+
+    .footer-mobile .copyright { 
+        width: 297px;
+        height: 26px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: -0.3px;
+        color: #8480AE;
+        margin: 30px auto 0 auto;
+        display: block;
+        text-align: center;
+    }
 }

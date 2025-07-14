@@ -73,3 +73,46 @@
     top: 235px;
     left: calc(50% - 540px);
 }
+
+.discover-explore-image-3 {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .discover-explore {
+        height: 542px;
+    }
+
+    .discover-explore-box {
+      margin-top: 64px;
+    }
+
+    .discover-explore h1 {
+        width: 336px;
+        height: 72px;
+        font-size: 24px;
+        text-align: center;
+        display: flex;
+        align-items: center;     
+        justify-content: center;
+        margin-top: 16px;
+    }
+
+    .discover-explore p {
+        width: 340px;
+        height: 120px;
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 16px;
+        text-align: center;
+    }
+
+    .discover-explore-images {
+        display: none;
+    }
+
+    .discover-explore-image-3 {
+        display: block;
+        height: 244px;
+    }
+}
